@@ -7,5 +7,26 @@
 			<class name="com.kannikawebpage.openpagetests.OpenPageTests" />
 		</classes>
 	</test>
+	<test name="aboutPageTest">
+		<classes>
+			<class name="com.kannikawebpage.aboutpagetests.AboutPageTests" />
+		</classes>
+	</test>
+	<test name="experiencePageTest">
+		<classes>
+			<class name="com.kannikawebpage.experiencepagetests.ExperiencePageTests" />
+		</classes>
+	</test>
+	
+	<test name="skillsPageTest">
+		<classes>
+			<class name="com.kannikawebpage.skillspagetests.SkillsPageTests" />
+		</classes>
+	</test>
+	<test name="contactPageTest">
+		<classes>
+			<class name="com.kannikawebpage.contactpagetests.ContactPageTests" />
+		</classes>
+	</test>
 		
 </suite>

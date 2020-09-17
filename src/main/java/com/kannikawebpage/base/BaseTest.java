@@ -3,7 +3,6 @@ package com.kannikawebpage.base;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import java.lang.reflect.Method;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +11,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
 import com.kannikawebpage.base.BrowserDriverFactory;
 
 
@@ -32,8 +30,7 @@ public class BaseTest {
 		
 		BrowserDriverFactory factory = new BrowserDriverFactory(browser, log);
 		driver = factory.createDriver();
-	
-		
+			
 		driver.manage().window().maximize();
 		
 		this.testSuiteName = ctx.getSuite().getName();

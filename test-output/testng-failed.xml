@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="homePageTest(failed)">
+    <classes>
+      <class name="com.kannikawebpage.openpagetests.OpenPageTests">
+        <methods>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- com.kannikawebpage.openpagetests.OpenPageTests -->
+    </classes>
+  </test> <!-- homePageTest(failed) -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->

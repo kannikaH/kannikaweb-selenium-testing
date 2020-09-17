@@ -1,42 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-03T21:36:45Z" name="SmokeTestSuite" finished-at="2020-09-03T21:37:02Z" duration-ms="17345">
+  <suite started-at="2020-09-17T19:36:35Z" name="SmokeTestSuite" finished-at="2020-09-17T19:37:00Z" duration-ms="24688">
     <groups>
     </groups>
-    <test started-at="2020-09-03T21:36:45Z" name="homePageTest" finished-at="2020-09-03T21:37:02Z" duration-ms="17345">
+    <test started-at="2020-09-17T19:36:35Z" name="homePageTest" finished-at="2020-09-17T19:36:41Z" duration-ms="5701">
       <class name="com.kannikawebpage.openpagetests.OpenPageTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.kannikawebpage.openpagetests.OpenPageTests@69453e37]" started-at="2020-09-03T21:36:45Z" name="setUp" finished-at="2020-09-03T21:36:51Z" duration-ms="5911" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.kannikawebpage.openpagetests.OpenPageTests.homePageTest()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@6e91893]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="homePageTest()[pri:0, instance:com.kannikawebpage.openpagetests.OpenPageTests@69453e37]" started-at="2020-09-03T21:36:51Z" name="homePageTest" finished-at="2020-09-03T21:37:02Z" duration-ms="10813" status="PASS">
+        <test-method signature="homePageTest()[pri:0, instance:com.kannikawebpage.openpagetests.OpenPageTests@6ad82709]" started-at="2020-09-17T19:36:35Z" name="homePageTest" finished-at="2020-09-17T19:36:41Z" duration-ms="5680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kannikawebpage.openpagetests.OpenPageTests@69453e37]" started-at="2020-09-03T21:37:02Z" name="tearDown" finished-at="2020-09-03T21:37:02Z" duration-ms="600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.kannikawebpage.openpagetests.OpenPageTests -->
     </test> <!-- homePageTest -->
+    <test started-at="2020-09-17T19:36:41Z" name="aboutPageTest" finished-at="2020-09-17T19:36:46Z" duration-ms="5449">
+      <class name="com.kannikawebpage.aboutpagetests.AboutPageTests">
+        <test-method signature="aboutPageTest()[pri:0, instance:com.kannikawebpage.aboutpagetests.AboutPageTests@1e66f1f5]" started-at="2020-09-17T19:36:41Z" name="aboutPageTest" finished-at="2020-09-17T19:36:46Z" duration-ms="5445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutPageTest -->
+      </class> <!-- com.kannikawebpage.aboutpagetests.AboutPageTests -->
+    </test> <!-- aboutPageTest -->
+    <test started-at="2020-09-17T19:36:46Z" name="experiencePageTest" finished-at="2020-09-17T19:36:50Z" duration-ms="4478">
+      <class name="com.kannikawebpage.experiencepagetests.ExperiencePageTests">
+        <test-method signature="experiencePageTest()[pri:0, instance:com.kannikawebpage.experiencepagetests.ExperiencePageTests@33c911a1]" started-at="2020-09-17T19:36:46Z" name="experiencePageTest" finished-at="2020-09-17T19:36:50Z" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experiencePageTest -->
+      </class> <!-- com.kannikawebpage.experiencepagetests.ExperiencePageTests -->
+    </test> <!-- experiencePageTest -->
+    <test started-at="2020-09-17T19:36:51Z" name="skillsPageTest" finished-at="2020-09-17T19:36:55Z" duration-ms="4479">
+      <class name="com.kannikawebpage.skillspagetests.SkillsPageTests">
+        <test-method signature="skillsPageTests()[pri:0, instance:com.kannikawebpage.skillspagetests.SkillsPageTests@5b94b04d]" started-at="2020-09-17T19:36:51Z" name="skillsPageTests" finished-at="2020-09-17T19:36:55Z" duration-ms="4477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillsPageTests -->
+      </class> <!-- com.kannikawebpage.skillspagetests.SkillsPageTests -->
+    </test> <!-- skillsPageTest -->
+    <test started-at="2020-09-17T19:36:55Z" name="contactPageTest" finished-at="2020-09-17T19:37:00Z" duration-ms="4538">
+      <class name="com.kannikawebpage.contactpagetests.ContactPageTests">
+        <test-method signature="contactPageTests()[pri:0, instance:com.kannikawebpage.contactpagetests.ContactPageTests@7494f96a]" started-at="2020-09-17T19:36:55Z" name="contactPageTests" finished-at="2020-09-17T19:37:00Z" duration-ms="4536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPageTests -->
+      </class> <!-- com.kannikawebpage.contactpagetests.ContactPageTests -->
+    </test> <!-- contactPageTest -->
   </suite> <!-- SmokeTestSuite -->
 </testng-results>

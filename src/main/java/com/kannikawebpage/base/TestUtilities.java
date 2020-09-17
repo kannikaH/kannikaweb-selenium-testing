@@ -9,13 +9,13 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
 
-import com.kannikawebpage.base.BaseTest;
 
-public class TestUtilities  extends BaseTest {
-	
+public class TestUtilities {
+	private WebDriver driver;
 	/** Take screenshot */
 	protected void takeScreenshot(String fileName) {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -23,9 +23,6 @@ public class TestUtilities  extends BaseTest {
 				+ File.separator + "test-output" 
 				+ File.separator + "screenshots"
 				+ File.separator + getTodaysDate() 
-				+ File.separator + testSuiteName 
-				+ File.separator + testName
-				+ File.separator + testMethodName 
 				+ File.separator + getSystemTime() 
 				+ " " + fileName + ".png";
 		try {
@@ -45,11 +42,13 @@ public class TestUtilities  extends BaseTest {
 		return (new SimpleDateFormat("HHmmssSSS").format(new Date()));
 	}
 
+	
 	/** Get logs from browser console */
-	protected List<LogEntry> getBrowserLogs() {
+	/*protected List<LogEntry> getBrowserLogs() {
 		LogEntries log = driver.manage().logs().get("browser");
 		List<LogEntry> logList = log.getAll();
 		return logList;
 	}
+	*/
 
 }
